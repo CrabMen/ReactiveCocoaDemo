@@ -13,7 +13,7 @@ FOUNDATION_EXPORT double ReactiveCocoaVersionNumber;
 
 //! Project version string for ReactiveCocoa.
 FOUNDATION_EXPORT const unsigned char ReactiveCocoaVersionString[];
-
+#import "NSObject+RACKVOWrapper.h"
 #import "EXTKeyPathCoding.h"
 #import "EXTScope.h"
 #import "NSArray+RACSequenceAdditions.h"

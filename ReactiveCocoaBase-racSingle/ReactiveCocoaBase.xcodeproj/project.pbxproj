@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		232EB69E1CFD78550064C143 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 232EB69D1CFD78550064C143 /* RedView.m */; };
 		23C5623E1CFC84B2008E1238 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C5623D1CFC84B2008E1238 /* main.m */; };
 		23C562411CFC84B2008E1238 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C562401CFC84B2008E1238 /* AppDelegate.m */; };
 		23C562441CFC84B2008E1238 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C562431CFC84B2008E1238 /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		232EB69C1CFD78550064C143 /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		232EB69D1CFD78550064C143 /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
 		23C562391CFC84B2008E1238 /* ReactiveCocoaBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCocoaBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C5623D1CFC84B2008E1238 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23C5623F1CFC84B2008E1238 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -123,6 +126,8 @@
 				23C562401CFC84B2008E1238 /* AppDelegate.m */,
 				23C562421CFC84B2008E1238 /* ViewController.h */,
 				23C562431CFC84B2008E1238 /* ViewController.m */,
+				232EB69C1CFD78550064C143 /* RedView.h */,
+				232EB69D1CFD78550064C143 /* RedView.m */,
 				23C562451CFC84B2008E1238 /* Main.storyboard */,
 				23C562481CFC84B2008E1238 /* Assets.xcassets */,
 				23C5624A1CFC84B2008E1238 /* LaunchScreen.storyboard */,
@@ -448,6 +453,7 @@
 			files = (
 				23C562441CFC84B2008E1238 /* ViewController.m in Sources */,
 				23C562411CFC84B2008E1238 /* AppDelegate.m in Sources */,
+				232EB69E1CFD78550064C143 /* RedView.m in Sources */,
 				23C5623E1CFC84B2008E1238 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
