@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230900161CFF1F6A003E6E81 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 230900151CFF1F6A003E6E81 /* LoginViewModel.m */; };
 		23C5623E1CFC84B2008E1238 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C5623D1CFC84B2008E1238 /* main.m */; };
 		23C562411CFC84B2008E1238 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C562401CFC84B2008E1238 /* AppDelegate.m */; };
 		23C562441CFC84B2008E1238 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C562431CFC84B2008E1238 /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		230900141CFF1F6A003E6E81 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		230900151CFF1F6A003E6E81 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		23C562391CFC84B2008E1238 /* ReactiveCocoaBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCocoaBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C5623D1CFC84B2008E1238 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23C5623F1CFC84B2008E1238 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -123,6 +126,8 @@
 				23C562401CFC84B2008E1238 /* AppDelegate.m */,
 				23C562421CFC84B2008E1238 /* ViewController.h */,
 				23C562431CFC84B2008E1238 /* ViewController.m */,
+				230900141CFF1F6A003E6E81 /* LoginViewModel.h */,
+				230900151CFF1F6A003E6E81 /* LoginViewModel.m */,
 				23C562451CFC84B2008E1238 /* Main.storyboard */,
 				23C562481CFC84B2008E1238 /* Assets.xcassets */,
 				23C5624A1CFC84B2008E1238 /* LaunchScreen.storyboard */,
@@ -446,6 +451,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				230900161CFF1F6A003E6E81 /* LoginViewModel.m in Sources */,
 				23C562441CFC84B2008E1238 /* ViewController.m in Sources */,
 				23C562411CFC84B2008E1238 /* AppDelegate.m in Sources */,
 				23C5623E1CFC84B2008E1238 /* main.m in Sources */,
